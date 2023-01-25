@@ -1,3 +1,35 @@
 .services_container{
     padding: 40px 25px;
 }
+ 
+.service_list_container {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.service_list_container:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 3px solid blue;
+    border-right: 3px solid blue;
+}
+span:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+}
