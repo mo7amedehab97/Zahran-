@@ -1,0 +1,40 @@
+nav {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.logo_holder img {
+  width: 80px;
+  height: 80px;
+}
+.nav_list {
+  display: flex;
+  gap: 3rem;
+}
+.nav_list a {
+  color: var(--text_color3);
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 1s ease-in-out;
+}
+.nav_list a:hover {
+  color: var(--main);
+  transform: scale(1.15);
+}
+.nav_contact_btn {
+  background-color: transparent;
+}
+.nav_contact_btn a {
+  color: var(--text_color3);
+  transition: all 1s ease-in-out;
+  border: 1px solid var(--text_color3);
+  padding: 4px 12px;
+  border-radius: var(--radius);
+}
+.nav_contact_btn a:hover {
+  color: var(--main);
+  transition: all 1s ease-in-out;
+  border: 1px solid var(--main);
+}
