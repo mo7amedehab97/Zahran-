@@ -10,14 +10,14 @@ function Counter({ from, to }) {
     const controls = animate(from, to, {
       duration: 1,
       onUpdate(value) {
-        node.textContent = value.toFixed(2);
+        node.textContent = value.toFixed(0);
       }
     });
 
     return () => controls.stop();
   }, [from, to]);
 
-  return <p ref={nodeRef} />;
+  return <p ref={nodeRef} className="number_1" />;
 }
 
 export default Counter

@@ -1,0 +1,52 @@
+.satistics_container {
+  padding: 30px 25px 90px;
+  background-color: #f5f5f5;
+}
+.number_1 {
+  color: var(--main);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 47px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(
+    45deg,
+    var(--main),
+    var(--background),
+    rgba(0, 0, 0, 0.516),
+    var(--background),
+    var(--main)
+  );
+}
+
+.number_1::before {
+  content: "";
+  background: #f5f5f5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.satistics_holder_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.satistics_comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.satistics_comp h3 {
+  color: var(--main);
+}

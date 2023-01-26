@@ -1,0 +1,24 @@
+footer{
+    background-color: #333;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_details img{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+.footer_details p{
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text_color3);
+}
+.footer_contact a{
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    border-radius: var(--radius);
+}
