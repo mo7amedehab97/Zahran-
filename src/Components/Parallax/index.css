@@ -1,0 +1,79 @@
+.parallax_container {
+  height: 80vh;
+  object-fit: cover;
+  position: relative;
+}
+.parallax_container::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.agreement_container {
+  border: 3px solid var(--text_color1);
+  border-end-end-radius: 1rem;
+  width: 50vw;
+  height: 40vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 20vh);
+  z-index: 3;
+}
+.agreement_container h1 {
+  color: #fff;
+}
+.agreement_container h2 {
+  color: #fff;
+}
+.agreement_container a,
+.order_service_container .order_row2 a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 16px;
+  border-radius: var(--radius);
+  transition: all 1s ease-in-out;
+}
+.agreement_container a:hover {
+  transform: scale(1.2);
+  color: var(--main);
+  border: 1px solid var(--main);
+}
+.order_service_container {
+  padding: 30px 120px;
+  background-color: var(--main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_service_container .order_row1 h2,
+p {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.recrutments_steps {
+  display: flex;
+  margin: 0 120px;
+  
+  gap: 1rem;
+  position: absolute;
+  top: calc(40vh - 50px);
+}
+.steps_holder {
+  z-index: 5;
+  background: linear-gradient(45deg, var(--main), var(--background));
+  padding: 12px 8px;
+  border-radius: 25px 0;
+}
+.steps_holder p, h2{
+    color: #333;
+  }
