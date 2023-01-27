@@ -53,7 +53,7 @@ const servicesArray = [
 ];
 const Services = () => {
   return (
-    <section className="services_container">
+    <section className="services_container" id="services">
       <Title title="خدماتنا" />
 
       <div className="service_container_lists">

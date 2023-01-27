@@ -9,18 +9,13 @@ const stepsData = [
   {
     id: 2,
     name: "تجديد العقود",
-    description: "نقوم بتجديد عقود العمالة وتسهيل الاجؤاءات القانونية",
+    description: "نقوم بتجديد عقود العمالة وتسهيل الاجرائات القانونية",
   },
   {
     id: 3,
     name: "تدريب العمالة",
     description: "ندرب العمالة لضمان حصولكم علي افضل جودة ممكنة للخدمة المقدمة",
-  },
-  {
-    id: 4,
-    name: "اصدار الاقامة",
-    description: "نقوم بمساعدتكم لاصدار الاقامات للمالة بافضل الطرق الممكنة",
-  },
+  }
 ];
 const RecrutmentSteps = () => {
   return <div className="recrutments_steps">{stepsData.map((step)=>{

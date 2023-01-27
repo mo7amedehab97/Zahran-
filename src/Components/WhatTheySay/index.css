@@ -1,0 +1,88 @@
+.what_say_container {
+  padding: 40px 135px;
+}
+.review {
+  width: 350px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #eeeeee;
+  min-height: 350px;
+}
+.review_img_container {
+  display: flex;
+  justify-content: center;
+}
+#person-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  box-shadow: 5px -5px orange;
+}
+#author {
+  color: #333;
+}
+#job {
+  font-size: 15px;
+  color: var(--main);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#info {
+  margin: auto;
+  font-size: 15px;
+  font-weight: 300;
+  color: gray;
+}
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 10px 0 30px;
+  cursor: -webkit-grab;
+  padding-bottom: 30px;
+}
+
+.mySwiper .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper .swiper-pagination {
+  bottom: -4px !important;
+}
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

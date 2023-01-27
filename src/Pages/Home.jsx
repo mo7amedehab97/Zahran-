@@ -9,6 +9,7 @@ import OrderService from "../Components/Parallax/OrderService";
 import RecrutmentSteps from "../Components/Parallax/RecrutmentSteps";
 import Satistics from "../Components/Satistics/Satistics";
 import Footer from "../Components/Footer/Footer";
+import WhatTheySay from "../Components/WhatTheySay/WhatTheySay";
 const Home = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Home = () => {
       <OrderService />
       <ParallaxComp image={bg2} paraComp={<RecrutmentSteps />} />
       <Satistics />
+      <WhatTheySay />
       <Footer />
     </>
   );
