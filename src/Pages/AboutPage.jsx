@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from '../Components/AboutUs/AboutUs'
 import Location from '../Components/AboutUs/Location'
 import Footer from '../Components/Footer/Footer'
 import Navbar from '../Components/Navbar/Navbar'
@@ -8,6 +9,7 @@ const AboutPage = () => {
     <section>
     <Navbar />
     <Location />
+    <AboutUs />
     <Footer />
     </section>
   )

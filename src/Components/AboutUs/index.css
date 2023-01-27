@@ -1,3 +1,35 @@
-.location_container{
-    overflow-x: hidden;
+.location_container {
+  padding: 20px 35px;
+  background-color: #ddd;
+}
+
+.location_container p {
+  color: #333;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+.location_container p span {
+  color: rgb(88, 88, 88);
+  font-weight: 400;
+}
+
+.about_us_container {
+  padding: 60px 35px;
+}
+.about_us_inner_container {
+  background-color: #ddd;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.about_us_inner_container h1 {
+  color: #333;
+}
+.about_us_inner_container p {
+  color: rgb(88, 88, 88);
+  font-size: 1rem;
+  line-height: 31px;
 }
