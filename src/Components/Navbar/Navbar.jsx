@@ -1,16 +1,18 @@
 import "./index.css";
 import Logo1 from "../../assets/Group 96.svg";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
       <div className="logo_holder">
-        <img src={Logo1} alt="website logo image" />
+        <Link to="/">
+          <img src={Logo1} alt="website logo image" />
+        </Link>
       </div>
       <div className="nav_list">
-        <a href="#">الرئيسية</a>
+        <Link to="/">الرئيسية</Link>
         <a href="#services">خدماتنا</a>
-        <a href="#about">من نحن</a>
+        <Link to="about">من نحن</Link>
         <a href="#"> العروض</a>
       </div>
       <div className="nav_contact_btn">

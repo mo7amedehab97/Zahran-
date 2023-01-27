@@ -57,7 +57,8 @@
   border-right: 3px solid blue;
   border-radius: 5px;
 }
-span:before {
+
+.service_list_container span:before {
   display: block;
   content: "";
   width: 20px;

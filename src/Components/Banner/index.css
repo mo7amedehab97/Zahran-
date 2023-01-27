@@ -4,6 +4,9 @@
   height: calc(100vh - 100px);
   position: relative;
 }
+.slide_container {
+  height: calc(100vh - 100px);
+}
 .slide_details {
   position: absolute;
   z-index: 99;

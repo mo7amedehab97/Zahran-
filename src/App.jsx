@@ -6,11 +6,18 @@ import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import "swiper/css/autoplay";
 import Home from "./Pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AboutPage from "./Pages/AboutPage";
+
 function App() {
   return (
     <>
-      <Home />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<AboutPage />} />
+    </Routes>
+  </BrowserRouter>    </>
   );
 }
 
