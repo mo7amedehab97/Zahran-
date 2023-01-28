@@ -77,3 +77,30 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media (max-width: 1290px) {
+  .service_container_lists {
+    padding: 20px 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 700px) {
+  .services_container{
+    padding: 30px 20px;
+  }
+  .service_container_lists {
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .service_list_container {
+    width: 300px;
+  }
+  .service_list_container img {
+    width: 250px;
+  
+  }
+}

@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <section>
     <Navbar />
-    <Location />
+    <Location page={'من نحن'}/>
     <AboutUs />
     <Footer />
     </section>

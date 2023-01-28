@@ -1,10 +1,11 @@
 import "./index.css";
 
-const Location = () => {
+const Location = ({page}) => {
   return (
     <article className="location_container">
       <p>
-        الرئيسية /<span> من نحن</span>
+        الرئيسية /<span> {page}
+         </span>
       </p>
     </article>
   );

@@ -81,3 +81,37 @@
 .swiper-pagination-bullet {
   display: none;
 }
+
+@media (max-width: 700px) {
+  .slide_container img {
+    width: 100vw;
+    object-fit: cover;
+    height: calc(60vh - 100px);
+    position: relative;
+  }
+  .slide_container {
+    height: calc(60vh - 100px);
+  }
+}
+@media (max-width: 450px) {
+  .slide_container img {
+    width: 100vw;
+    object-fit: cover;
+    height: calc(70vh - 100px);
+    position: relative;
+  }
+  .slide_container {
+    height: calc(70vh - 100px);
+  }
+  .slide_details h1 {
+    font-size: 18px;
+  }
+  .slide_details p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .slide_details a {
+    font-size: 14px;
+    padding: 2px 8px;
+  }
+}

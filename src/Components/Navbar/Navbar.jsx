@@ -1,19 +1,22 @@
 import "./index.css";
 import Logo1 from "../../assets/Group 96.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <nav>
       <div className="logo_holder">
-        <Link to="/">
+        <button onClick={() => navigate("/")}>
           <img src={Logo1} alt="website logo image" />
-        </Link>
+        </button>
       </div>
       <div className="nav_list">
-        <Link to="/">الرئيسية</Link>
-        <a href="#services">خدماتنا</a>
-        <Link to="about">من نحن</Link>
-        <a href="#"> العروض</a>
+        <button onClick={() => navigate("/")}>الرئيسية</button>
+        <button onClick={() => navigate("/services")}>خدماتنا</button>
+        <button onClick={() => navigate("/about")}>من نحن</button>
+        <button href="#"> العروض</button>
       </div>
       <div className="nav_contact_btn">
         <a href="#"> تواصل معنا </a>

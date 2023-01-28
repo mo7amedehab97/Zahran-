@@ -8,6 +8,7 @@ import "swiper/css/autoplay";
 import Home from "./Pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
+import ServicePage from "./Pages/ServicePage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/services" element={<ServicePage />} />
     </Routes>
   </BrowserRouter>    </>
   );

@@ -4,22 +4,35 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 5px 25px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 120;
 }
 .logo_holder img {
   width: 80px;
   height: 80px;
 }
+
+.logo_holder button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .nav_list {
   display: flex;
   gap: 3rem;
 }
-.nav_list a {
+.nav_list button {
   color: var(--text_color3);
   font-weight: 600;
   font-size: 18px;
   transition: all 1s ease-in-out;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
-.nav_list a:hover {
+.nav_list button:hover {
   color: var(--main);
   transform: scale(1.15);
 }
@@ -37,4 +50,10 @@ nav {
   color: var(--main);
   transition: all 1s ease-in-out;
   border: 1px solid var(--main);
+}
+
+@media (max-width: 650px) {
+  .nav_list {
+    display: none;
+  }
 }

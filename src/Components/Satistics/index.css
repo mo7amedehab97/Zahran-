@@ -50,3 +50,9 @@
 .satistics_comp h3 {
   color: var(--main);
 }
+@media (max-width:600px) {
+  .satistics_holder_list{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

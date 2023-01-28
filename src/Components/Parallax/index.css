@@ -5,8 +5,8 @@
 }
 .parallax_container::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   height: 80vh;
   position: absolute;
   top: 0;
@@ -87,4 +87,39 @@ p {
 .steps_holder p,
 h2 {
   color: #333;
+}
+@media (max-width: 1090px) {
+  .order_service_container {
+    flex-direction: column;
+    padding: 15px 15px;
+  }
+  .order_row2,
+  .order_row1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .order_row1 p {
+    text-align: center;
+  }
+  .agreement_container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 420px) {
+  .recrutments_steps {
+    margin: 0 20px;
+    gap: 2.5rem;
+    top: 90px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  .recrutments_steps {
+    margin: 0 20px;
+    gap: 1.5rem;
+    top: 50px;
+  }
 }
