@@ -1,9 +1,13 @@
 import "./index.css";
 import Logo1 from "../../assets/Group 96.svg";
-import { Link, useNavigate } from "react-router-dom";
+import burgerIcon from "../../assets/burger_menu.svg";
+import cancel from "../../assets/cancel.svg";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const [active, setActive] = useState(true);
 
   return (
     <nav>
@@ -12,14 +16,62 @@ const Navbar = () => {
           <img src={Logo1} alt="website logo image" />
         </button>
       </div>
-      <div className="nav_list">
-        <button onClick={() => navigate("/")}>الرئيسية</button>
-        <button onClick={() => navigate("/services")}>خدماتنا</button>
-        <button onClick={() => navigate("/about")}>من نحن</button>
+      <div className={active ? `nav_list true_1` : "nav_list false_1"}>
+        <button
+          onClick={() => {
+            setActive(!active);
+            navigate("/");
+          }}
+        >
+          الرئيسية
+        </button>
+        <button
+          onClick={() => {
+            setActive(!active);
+
+            navigate("/services");
+          }}
+        >
+          خدماتنا
+        </button>
+        <button
+          onClick={() => {
+            setActive(!active);
+            navigate("/about");
+          }}
+        >
+          من نحن
+        </button>
         <button href="#"> العروض</button>
+        <div className="nav_contact_btn1">
+          <a
+            href="#"
+            onClick={() => {
+              setActive(!active);
+            }}
+          >
+            {" "}
+            تواصل معنا{" "}
+          </a>
+        </div>
       </div>
       <div className="nav_contact_btn">
         <a href="#"> تواصل معنا </a>
+      </div>
+      <div className="nav_burger_icon">
+        {active ? (
+          <img
+            src={burgerIcon}
+            alt="Burger menu Icon "
+            onClick={() => setActive(!active)}
+          />
+        ) : (
+          <img
+            src={cancel}
+            alt="cancel menu Icon "
+            onClick={() => setActive(!active)}
+          />
+        )}
       </div>
     </nav>
   );
