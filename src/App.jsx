@@ -9,17 +9,20 @@ import Home from "./Pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import ServicePage from "./Pages/ServicePage";
+import SingleServicePage from "./Pages/SingleServicePage";
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/services" element={<ServicePage />} />
-    </Routes>
-  </BrowserRouter>    </>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<ServicePage />} />
+          <Route path="/service/:id" element={<SingleServicePage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

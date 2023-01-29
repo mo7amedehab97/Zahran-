@@ -1,13 +1,14 @@
-import Title from "../Title/Title";
-import "./index.css";
-import Service from "./Service";
-import chef from "../../assets/chef.jpg";
-import guard from "../../assets/guards.jpg";
-import clean from "../../assets/clean.jpg";
-import babysiter from "../../assets/babysiter.jpg";
-import driver from "../../assets/driver.jpg";
-import nurse from "../../assets/clean (2).jpg";
-
+import React from "react";
+import Footer from "../Components/Footer/Footer";
+import Navbar from "../Components/Navbar/Navbar";
+import { useParams } from "react-router-dom";
+import chef from "../assets/chef.jpg";
+import guard from "../assets/guards.jpg";
+import clean from "../assets/clean.jpg";
+import babysiter from "../assets/babysiter.jpg";
+import driver from "../assets/driver.jpg";
+import nurse from "../assets/clean (2).jpg";
+import ServiceComp from "../Components/Services/ServiceComp";
 const servicesArray = [
   {
     id: 1,
@@ -51,18 +52,23 @@ const servicesArray = [
     img: nurse,
   },
 ];
-const Services = () => {
+const SingleServicePage = () => {
+  let { id } = useParams();
+  const singleServiceObj = servicesArray.find((data) => id == data.id);
   return (
-    <section className="services_container" id="services">
-      <Title title="خدماتنا" />
+    <div>
+      <Navbar />
+      <ServiceComp
+        data={singleServiceObj}
+        bgClass="background_white"
+        imgDir="right"
+        container_class="service_comp_container_right"
+        inner_class="service_comp_details_holder_right"
+      />
 
-      <div className="service_container_lists">
-        {servicesArray?.map((item) => (
-          <Service data={item} key={item.id} />
-        ))}
-      </div>
-    </section>
+      <Footer />
+    </div>
   );
 };
 
-export default Services;
+export default SingleServicePage;

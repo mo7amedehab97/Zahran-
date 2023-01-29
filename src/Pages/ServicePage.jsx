@@ -61,9 +61,23 @@ const ServicePage = () => {
 
       {servicesArray.map((item, index) =>
         index % 2 !== 0 ? (
-          <ServiceComp data={item}  bgClass="background_grey" imgDir="right"  container_class='service_comp_container_right' inner_class='service_comp_details_holder_right'/>
+          <ServiceComp
+            data={item}
+            key={item.id}
+            bgClass="background_grey"
+            imgDir="right"
+            container_class="service_comp_container_right"
+            inner_class="service_comp_details_holder_right"
+          />
         ) : (
-          <ServiceComp data={item}  bgClass="background_white" imgDir="left" container_class='service_comp_container_left' inner_class='service_comp_details_holder_left'/>
+          <ServiceComp
+            data={item}
+            key={item.id}
+            bgClass="background_white"
+            imgDir="left"
+            container_class="service_comp_container_left"
+            inner_class="service_comp_details_holder_left"
+          />
         )
       )}
       <Footer />
