@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/slider1.jpg";
 const SlideComp = ({ data }) => {
   return (
     <div className="slide_container">

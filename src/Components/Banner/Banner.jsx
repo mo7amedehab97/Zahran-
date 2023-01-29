@@ -5,11 +5,11 @@ import {
   Autoplay,
   EffectFade,
 } from "swiper";
-import Slide1 from "../../assets/slider1.jpg";
-import Slide2 from "../../assets/slider2.jpg";
-import Slide3 from "../../assets/slider3.jpg";
-import Slide4 from "../../assets/slider4.jpg";
-import Slide5 from "../../assets/slider5.jpg";
+import Slide1 from "../../assets/slider1.webp";
+import Slide2 from "../../assets/slider2.webp";
+import Slide3 from "../../assets/slider3.webp";
+import Slide4 from "../../assets/slider4.webp";
+import Slide5 from "../../assets/slider5.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SlideComp from "./SlideComp";
 import "./index.css";

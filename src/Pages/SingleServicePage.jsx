@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import { useParams } from "react-router-dom";
-import chef from "../assets/chef.jpg";
-import guard from "../assets/guards.jpg";
-import clean from "../assets/clean.jpg";
-import babysiter from "../assets/babysiter.jpg";
-import driver from "../assets/driver.jpg";
-import nurse from "../assets/clean (2).jpg";
+import chef from "../assets/chef.webp";
+import guard from "../assets/guards.webp";
+import clean from "../assets/clean.webp";
+import babysiter from "../assets/babysiter.webp";
+import driver from "../assets/driver.webp";
+import nurse from "../assets/clean-_2_.webp";
 import ServiceComp from "../Components/Services/ServiceComp";
 const servicesArray = [
   {

@@ -1,5 +1,5 @@
 import "./serviceComp.css";
-import chef from "../../assets/chef.jpg";
+import chef from "../../assets/chef.webp";
 const ServiceComp = ({
   data,
   bgClass,

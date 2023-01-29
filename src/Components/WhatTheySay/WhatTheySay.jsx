@@ -7,10 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./index.css";
 import Review from "./Review";
-import person1 from "../../assets/person1.jpg";
-import person2 from "../../assets/person2.jpg";
-import person3 from "../../assets/person3.jpg";
-import person4 from "../../assets/person4.jpg";
+import person1 from "../../assets/person1.webp";
+import person2 from "../../assets/person2.webp";
+import person3 from "../../assets/person3.webp";
+import person4 from "../../assets/person4.webp";
 
 const quotes = [
   {

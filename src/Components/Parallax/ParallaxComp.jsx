@@ -1,5 +1,4 @@
 import { Parallax } from "react-parallax";
-import bg1 from "../../assets/bg1.jpg";
 import "./index.css";
 const ParallaxComp = ({ image, paraComp }) => (
   <Parallax
