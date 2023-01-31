@@ -8,7 +8,7 @@ const OffersPage = () => {
   return (
     <>
       <Navbar />
-      <Location page={"الخدمات "} />
+      <Location page={"العروض "} />
       <Offers />
       <Footer />
     </>
