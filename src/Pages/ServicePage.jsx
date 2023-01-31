@@ -55,7 +55,7 @@ const servicesArray = [
 ];
 const ServicePage = () => {
   return (
-    <section className="about_page_container">
+    <>
       <Navbar />
       <Location page={"الخدمات "} />
 
@@ -81,7 +81,7 @@ const ServicePage = () => {
         )
       )}
       <Footer />
-    </section>
+    </>
   );
 };
 

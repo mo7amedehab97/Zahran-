@@ -56,7 +56,7 @@ const SingleServicePage = () => {
   let { id } = useParams();
   const singleServiceObj = servicesArray.find((data) => id == data.id);
   return (
-    <div>
+    <>
       <Navbar />
       <ServiceComp
         data={singleServiceObj}
@@ -67,7 +67,7 @@ const SingleServicePage = () => {
       />
 
       <Footer />
-    </div>
+    </>
   );
 };
 
