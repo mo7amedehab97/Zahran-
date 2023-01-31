@@ -42,16 +42,21 @@ const Navbar = () => {
         >
           من نحن
         </button>
-        <button href="#"> العروض</button>
+        <button
+          onClick={() => {
+            setActive(!active);
+            navigate("/offers");
+          }}
+        >
+          العروض
+        </button>
         <div className="nav_contact_btn1">
           <a
-            href="#"
             onClick={() => {
               setActive(!active);
             }}
           >
-            {" "}
-            تواصل معنا{" "}
+            تواصل معنا
           </a>
         </div>
       </div>
