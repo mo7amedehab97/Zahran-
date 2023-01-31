@@ -108,7 +108,7 @@ h2 {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 920px) {
   .recrutments_steps {
     margin: 0 20px;
     gap: 2.5rem;

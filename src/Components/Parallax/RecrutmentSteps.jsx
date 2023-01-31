@@ -3,8 +3,9 @@ import "./index.css";
 const stepsData = [
   {
     id: 1,
-    name: "تسفير العمالة",
-    description: "نقوم بتسفير العمالة حتي تقوم بعملها علي اكمل وجه",
+    name: "افضل عمالة موجودة بالمملكة  ",
+    description:
+      "نحرص  علي توفير افضل الخادمات والسائقين والممرضين والخدمات وجميع العمال والعاملات من المهن المختلفة ",
   },
   {
     id: 2,
@@ -15,17 +16,21 @@ const stepsData = [
     id: 3,
     name: "تدريب العمالة",
     description: "ندرب العمالة لضمان حصولكم علي افضل جودة ممكنة للخدمة المقدمة",
-  }
+  },
 ];
 const RecrutmentSteps = () => {
-  return <div className="recrutments_steps">{stepsData.map((step)=>{
-    return <div className="steps_holder" key={step.id}>
-    <h2>{step.name}</h2>
-    <p>{step.description}</p>
+  return (
+    <div className="recrutments_steps">
+      {stepsData.map((step) => {
+        return (
+          <div className="steps_holder" key={step.id}>
+            <h2>{step.name}</h2>
+            <p>{step.description}</p>
+          </div>
+        );
+      })}
     </div>
-  })
-    
-  }</div>;
+  );
 };
 
 export default RecrutmentSteps;
