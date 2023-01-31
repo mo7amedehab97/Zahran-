@@ -3,8 +3,13 @@ import Title from "../Title/Title";
 import gold from "../../assets/gold.svg";
 import silver from "../../assets/silver.svg";
 import SingleOffer from "./SingleOffer";
-
-const offersList = [{}];
+ import whatsApp from "../../assets/whatsapp.svg"
+const offersList = [
+  { country: "اندونيسيا", after: "16900", before: "18500" },
+  { country: "الفلبين", after: "16000", before: "18000" },
+  { country: "اوغندا", after: "16200", before: "17500" },
+  { country: "كينيا", after: "16500", before: "17800" },
+];
 const Offers = () => {
   return (
     <section className="offers_container">
@@ -24,31 +29,36 @@ const Offers = () => {
               <h3> زهران خيارك الافضل </h3>
             </div>
             <div className="offer_prices_list">
-              <SingleOffer bg="single_offer_holder_gold" />
-              <SingleOffer bg="single_offer_holder_gold" />
-              <SingleOffer bg="single_offer_holder_gold" />
-              <SingleOffer bg="single_offer_holder_gold" />
+              {offersList.map((item) => {
+                return (
+                  <SingleOffer bg="single_offer_holder_gold" data={item} />
+                );
+              })}
             </div>
           </article>
         </article>
         <article className="offers_col2">
           <div className="offers_title2">
             <img src={silver} alt="ايقونة العرض الفضي موقع زهران" />
-            <h2>العرض الفضي من زهران</h2>
+            <h2> العرض الفضي من زهران</h2>
           </div>
           <article className="offer_details1">
             <div className="offer_description">
               <h3> احصل على أفضل العاملات مع شركة زهران بسعر خرافي</h3>
-              <p>
-                العرض لمدة سنتين ستةأشهر منها تجريبية + شهر واحد بشكل مجاني
-                بالكامل{" "}
-              </p>
+              <p>_العرض لمدة شهر</p>
+              <p>_سعر منافس </p>
+              <p>_ جنسيات مختلفة ومتنوعة (المغرب, اثيوبيا , باكستان,الهند)</p>
+              <h3> زهران خيارك الافضل </h3>
+              <a href="#">
+                <img src={whatsApp} alt="زر تواصل مع زهران واتس اب" />
+              </a>
             </div>
             <div className="offer_prices_list">
-              <SingleOffer bg="single_offer_holder_grey" />
-              <SingleOffer bg="single_offer_holder_grey" />
-              <SingleOffer bg="single_offer_holder_grey" />
-              <SingleOffer bg="single_offer_holder_grey" />
+              {offersList.map((item) => {
+                return (
+                  <SingleOffer bg="single_offer_holder_grey" data={item} />
+                );
+              })}
             </div>
           </article>
         </article>

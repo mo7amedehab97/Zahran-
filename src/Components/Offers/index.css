@@ -10,7 +10,7 @@
 }
 .offers_col1,
 .offers_col2 {
-  border: 2px solid silver;
+  /* border: 2px solid silver; */
 }
 .offers_title,
 .offers_title2 {
@@ -46,6 +46,10 @@
 
 .offer_description p {
   color: var(--text_color4);
+}
+.offer_description a img {
+  width: 30px;
+  height: 30px;
 }
 .offer_details1 {
   display: flex;
