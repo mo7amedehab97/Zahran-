@@ -13,7 +13,7 @@ const Title = ({ title }) => {
       animation.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 2, bounce: 0.9, delay: 0.1 },
+        transition: { duration: 1, bounce: 0.9},
       });
     }
     if (!inView) {

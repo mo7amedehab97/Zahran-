@@ -12,15 +12,11 @@ const Service = ({ data }) => {
     if (inView) {
       animation.start({
         opacity: 1,
-        scale: 1,
-
-        transition: { duration: 0.9 },
       });
     }
     if (!inView) {
       animation.start({
         opacity: 0,
-        scale: 0.9,
       });
     }
   }, [inView]);
@@ -32,7 +28,7 @@ const Service = ({ data }) => {
       onClick={() => navigate(`/service/${data.id}`)}
     >
       <span></span>
-      <img src={data?.img} alt="service image description" loading="lazy" />
+      <img src={data?.img} alt={data.description} />
       <h2>{data.name}</h2>
       <p>{data.description}</p>
     </motion.div>
