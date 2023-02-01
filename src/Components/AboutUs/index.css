@@ -16,20 +16,69 @@
 
 .about_us_container {
   padding: 60px 35px;
+  display: flex;
+  background-color: rgb(164, 195, 211);
 }
 .about_us_inner_container {
-  background-color: #ddd;
-  height: 200px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  width: 50%;
+}
+
+.about_us_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about_us_inner_container h1 {
   color: #333;
+  text-align: center;
 }
 .about_us_inner_container p {
-  color: rgb(88, 88, 88);
-  font-size: 1rem;
+  color: rgb(52, 52, 52);
+  font-size: 1.2rem;
   line-height: 31px;
+
+  margin-top: 2rem;
+  text-align: center;
+}
+.about_us_img_holder {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_us_img_holder img {
+  width: 400px;
+  object-fit: cover;
+  height: 600px;
+}
+.whatsapp_holder {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.whatsapp_holder a img {
+  width: 50px;
+  height: 60px;
+}
+@media (max-width: 950px) {
+  .about_us_img_holder img {
+    width: 270px;
+    object-fit: cover;
+    height: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  .about_us_container {
+    flex-direction: column-reverse;
+  }
+  .about_us_inner_container {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }

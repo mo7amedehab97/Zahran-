@@ -10,6 +10,7 @@ footer {
   height: 80px;
 }
 .footer_details p {
+  width: 70%;
   margin-top: 1rem;
   font-weight: 300;
   font-size: 18px;

@@ -1,0 +1,26 @@
+.single_offer2_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(112, 112, 112, 0.325);
+  padding: 1.2rem 1rem;
+}
+.single_offer2_container :nth-child(3),
+.single_offer2_container :nth-child(1) {
+  color: var(--text_color2);
+}
+.single_offer2_container :nth-child(2) {
+  color: #25d366;
+}
+
+.single_offer2_container :nth-child(4) {
+  color: red;
+  text-decoration: line-through;
+}
+
+@media (max-width: 900px) {
+  .single_offer2_container :nth-child(1) {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+}

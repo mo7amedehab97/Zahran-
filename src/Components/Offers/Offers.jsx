@@ -3,7 +3,8 @@ import Title from "../Title/Title";
 import gold from "../../assets/gold.svg";
 import silver from "../../assets/silver.svg";
 import SingleOffer from "./SingleOffer";
- import whatsApp from "../../assets/whatsapp.svg"
+import whatsApp from "../../assets/whatsapp.svg";
+import SingleOffer2 from "./SingleOffer2";
 const offersList = [
   { country: "اندونيسيا", after: "16900", before: "18500" },
   { country: "الفلبين", after: "16000", before: "18000" },
@@ -26,7 +27,12 @@ const Offers = () => {
               <p>_ العرض لمدة سنتين </p>
               <p>_ ستةأشهر منها تجريبية </p>
               <p>_ بالاضافى الي شهر واحد بشكل مجاني بالكامل </p>
-              <h3> زهران خيارك الافضل </h3>
+              <div className="whatsapp_holder">
+                <h3> زهران خيارك الافضل </h3>
+                <a href="http://wa.me/+966598750176" target="_blank">
+                  <img src={whatsApp} alt="زر تواصل مع زهران واتس اب" />
+                </a>
+              </div>{" "}
             </div>
             <div className="offer_prices_list">
               {offersList.map((item) => {
@@ -48,17 +54,15 @@ const Offers = () => {
               <p>_العرض لمدة شهر</p>
               <p>_سعر منافس </p>
               <p>_ جنسيات مختلفة ومتنوعة (المغرب, اثيوبيا , باكستان,الهند)</p>
-              <h3> زهران خيارك الافضل </h3>
-              <a href="#">
-                <img src={whatsApp} alt="زر تواصل مع زهران واتس اب" />
-              </a>
+              <div className="whatsapp_holder">
+                <h3> زهران خيارك الافضل </h3>
+                <a href="http://wa.me/+966598750176" target="_blank">
+                  <img src={whatsApp} alt="زر تواصل مع زهران واتس اب" />
+                </a>
+              </div>
             </div>
             <div className="offer_prices_list">
-              {offersList.map((item) => {
-                return (
-                  <SingleOffer bg="single_offer_holder_grey" data={item} />
-                );
-              })}
+              <SingleOffer2 />
             </div>
           </article>
         </article>
