@@ -63,7 +63,7 @@
 }
 .whatsapp_holder a img {
   width: 50px;
-  height: 60px;
+  height: 50px;
 }
 @media (max-width: 950px) {
   .about_us_img_holder img {
@@ -80,5 +80,9 @@
   .about_us_inner_container {
     width: 100%;
     margin-top: 1rem;
+  }
+  .whatsapp_holder a img {
+    width: 40px;
+    height: 40px;
   }
 }

@@ -1,5 +1,5 @@
 import "./index.css";
-import Thinks from "../../assets/thinks.webp";
+import Thinks from "../../assets/thinks.png";
 import whatsApp from "../../assets/whatsapp.svg";
 const AboutUs = () => {
   return (

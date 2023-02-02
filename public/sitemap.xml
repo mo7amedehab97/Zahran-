@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zahran-beta.vercel.app/</loc>
+  <lastmod>2023-02-02T18:07:31+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/about</loc>
+  <lastmod>2023-02-02T18:08:50+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/offers</loc>
+  <lastmod>2023-02-02T18:09:28+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/services</loc>
+  <lastmod>2023-02-02T18:09:51+00:00</lastmod>
+</url><url>
+  <loc>https://zahran-beta.vercel.app/service/1</loc>
+  <lastmod>2023-02-02T18:10:45+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/service/2</loc>
+  <lastmod>2023-02-02T18:11:24+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/service/3</loc>
+  <lastmod>2023-02-02T18:12:07+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/service/4</loc>
+  <lastmod>2023-02-02T18:12:27+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/service/5</loc>
+  <lastmod>2023-02-02T18:12:49+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zahran-beta.vercel.app/service/6</loc>
+  <lastmod>2023-02-02T18:13:12+00:00</lastmod>
+</url>
+
+
+
+
+</urlset>

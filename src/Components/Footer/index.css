@@ -38,8 +38,11 @@ footer {
     text-align: center;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   footer {
-    padding: 80px 20px;
+    padding: 80px 10px;
+  }
+  .footer_details p {
+    width: 90%;
   }
 }
