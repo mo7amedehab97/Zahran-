@@ -70,12 +70,12 @@ nav {
   .nav_list {
     position: fixed;
     background-color: #333;
-    top:98px;
+    top: 98px;
     left: 0;
     flex-direction: column;
     width: 250px;
     padding: 1.3rem;
-    animation: animeNav .8s ease-out;
+    animation: animeNav 0.8s ease-out;
   }
   .nav_contact_btn1 {
     display: flex;

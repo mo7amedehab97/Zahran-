@@ -1,6 +1,6 @@
 import "./index.css";
 import Logo1 from "../../assets/Group 96.svg";
-import burgerIcon from "../../assets/burger_menu.svg";
+import burgerIcon from "../../assets/MENU.svg";
 import cancel from "../../assets/cancel.svg";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
