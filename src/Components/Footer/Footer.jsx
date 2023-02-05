@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer_details">
-        <img src={Logo} alt="website logo image" />
+        <img src={Logo} alt="  لوجو موقع زهران لتوفير العاملات المنزليات" />
         <p>
           زهران الرائدة في مجال العمالة المنزلية وفرت لك افضل العاملات المنزلية
           في المملكة ترحب بطلباتكم وأستفساراتكم اضغط الان علي تواصل الان  لطلب

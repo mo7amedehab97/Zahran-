@@ -3,7 +3,7 @@ import "./index.css";
 const ParallaxComp = ({ image, paraComp }) => (
   <Parallax
     bgImage={image}
-    bgImageAlt="the cat"
+    bgImageAlt="خلفية موقع زهرات لتوفير العاملات المنزليات "
     className="parallax_container"
     strength={800}
   >

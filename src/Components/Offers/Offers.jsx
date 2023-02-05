@@ -37,7 +37,11 @@ const Offers = () => {
             <div className="offer_prices_list">
               {offersList.map((item) => {
                 return (
-                  <SingleOffer bg="single_offer_holder_gold" data={item} />
+                  <SingleOffer
+                    bg="single_offer_holder_gold"
+                    data={item}
+                    key={item.country}
+                  />
                 );
               })}
             </div>
