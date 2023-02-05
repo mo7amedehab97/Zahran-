@@ -9,8 +9,11 @@ footer {
   width: 80px;
   height: 80px;
 }
+.footer_details {
+  flex: 1;
+}
 .footer_details p {
-  width: 70%;
+  width: 90%;
   margin-top: 1rem;
   font-weight: 300;
   font-size: 18px;
@@ -27,7 +30,7 @@ footer {
   footer {
     flex-direction: column;
     gap: 1rem;
-    padding: 80px 120px;
+    padding: 80px 20px;
   }
   .footer_details {
     display: flex;
