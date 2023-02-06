@@ -10,6 +10,7 @@ import RecrutmentSteps from "../Components/Parallax/RecrutmentSteps";
 import Satistics from "../Components/Satistics/Satistics";
 import Footer from "../Components/Footer/Footer";
 import WhatTheySay from "../Components/WhatTheySay/WhatTheySay";
+import WhatsAppComp from "../Components/whatsAppComp/WhatsAppComp";
 const Home = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Home = () => {
       <Satistics />
       <WhatTheySay />
       <Footer />
+      <WhatsAppComp />
     </>
   );
 };

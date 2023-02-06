@@ -9,6 +9,7 @@ import clean from "../assets/clean.jpg";
 import babysiter from "../assets/babysiter.webp";
 import driver from "../assets/driver.webp";
 import nurse from "../assets/clean-_2_.webp";
+import WhatsAppComp from "../Components/whatsAppComp/WhatsAppComp";
 
 const servicesArray = [
   {
@@ -81,6 +82,7 @@ const ServicePage = () => {
         )
       )}
       <Footer />
+      <WhatsAppComp />
     </>
   );
 };
