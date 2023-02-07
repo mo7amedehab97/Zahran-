@@ -5,7 +5,7 @@ const Agreement = () => {
     <div className="agreement_container">
       <h1>الأتفاق </h1>
       <h2>أمنحنا الثقة , ولن يكون هنالك مستحيل </h2>
-      <a href="http://wa.me/+966598750176" target="_blank">
+      <a href="http://wa.me/+966570222064" target="_blank">
         تواصل معنا
       </a>
     </div>

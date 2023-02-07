@@ -52,7 +52,7 @@ const Navbar = () => {
         </button>
         <div className="nav_contact_btn1">
           <a
-            href="http://wa.me/+966598750176"
+            href="http://wa.me/+966570222064"
             target="_blank"
             onClick={() => {
               setActive(!active);
@@ -63,7 +63,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="nav_contact_btn">
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
           تواصل معنا
         </a>
       </div>

@@ -13,7 +13,7 @@ const AboutUs = () => {
         </p>
         <div className="whatsapp_holder">
           <h3> زهران خيارك الافضل </h3>
-          <a href="http://wa.me/+966598750176" target="_blank">
+          <a href="http://wa.me/+966570222064" target="_blank">
             <img src={whatsApp} alt="زر تواصل مع زهران واتس اب" />
           </a>
         </div>

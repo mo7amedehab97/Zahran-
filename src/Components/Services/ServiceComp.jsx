@@ -13,7 +13,7 @@ const ServiceComp = ({
         <h1>{data.name}</h1>
         <p>{data.description}</p>
         <div className="link_service_comp">
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
         تواصل معنا الان</a>
         </div>
       </div>

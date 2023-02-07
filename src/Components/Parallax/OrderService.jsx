@@ -11,7 +11,7 @@ const OrderService = () => {
         </p>
       </div>
       <div className="order_row2">
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
           اطلب خدمة
         </a>
       </div>

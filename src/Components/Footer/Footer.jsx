@@ -12,11 +12,11 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer_contact">
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
           تواصل معنا
         </a>
         <p>
-          <span>اتصل بنا : </span> 966598750176+
+          <span>اتصل بنا : </span> 966570222064+
         </p>
       </div>
     </footer>

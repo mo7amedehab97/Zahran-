@@ -6,7 +6,7 @@ const SlideComp = ({ data }) => {
       <div className="slide_details">
         <h1>{data.title}</h1>
         <p> {data.description}</p>
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
           اطلب الخدمة الان
         </a>
       </div>

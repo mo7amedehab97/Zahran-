@@ -8,7 +8,7 @@ const WhatsAppComp = () => {
         <p>تواصل معنا</p>
       </div>
       <div className="whatsapp_col2">
-        <a href="http://wa.me/+966598750176" target="_blank">
+        <a href="http://wa.me/+966570222064" target="_blank">
           <img
             src={whatsappImg}
             alt="صورة لايقونة واتساب للتواصل مع فريق زهران "
